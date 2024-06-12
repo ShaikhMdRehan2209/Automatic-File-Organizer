@@ -22,7 +22,7 @@ for file in fileNames:
     if not os.path.exists(folderPath):
         os.makedirs(folderPath)
     sourceFile = os.path.join(path, file) # actual path
-    destinationFile = os.path.join(folderPath, file) # path to where file needs to be moves
+    destinationFile = os.path.join(folderPath, file) # path to where file needs to be moved
 
     # checking whether file already exists in destination folder or not 
     if not os.path.exists(destinationFile):
